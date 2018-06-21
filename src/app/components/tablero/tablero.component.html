@@ -1,0 +1,12 @@
+<div class="container">
+    <h2>Serpientes y escaleras</h2>
+
+    <div class="tablero">
+        <section *ngFor="let renglon of celdas.reverse(); index as i;">
+            <div *ngFor="let c of renglon;" class="celda">
+                <div class="ficha1"></div>
+                <div class="ficha2"></div>
+            </div>
+        </section>
+    </div>
+</div>
